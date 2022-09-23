@@ -1,0 +1,193 @@
+*{
+    padding: 0%;
+    font-family: Roboto;
+}
+
+#secao1{
+    background-image: url("../imagens/img1.png");
+    background-repeat: no-repeat;
+}
+
+nav{
+    font-family: monospace;
+}
+
+#secao1-grid{
+    padding-top: 10vw;
+}
+
+#secao1-grid h1{
+    color: white;
+    padding-bottom: 2vw;
+}
+
+#secao1-grid h4{
+    color: rgb(116, 116, 116);
+}
+
+#carrousel-img{
+    border-radius: 2vw;
+}
+
+#carousel-c{
+    padding-bottom: 5vw;
+}
+
+#botao-secao1{
+    margin-top: 2vw;
+    margin-bottom: 3vw;
+}
+
+#texto1-secao2{
+    text-align: center;
+    padding-top: 2vw;
+    padding-bottom: 2vw;
+}
+
+#texto1-secao2{
+    text-align: center;
+    padding-top: 2vw;
+    padding-bottom: 2vw;
+}
+
+#img-card-noticia{
+    height: 30vw;
+}
+
+#img-card{
+    height: 16vw;
+}
+
+#card{
+    width: 99.8vw;
+}
+
+#card-noticia{
+    width: 40vw;
+}
+
+#botao-secao2{
+    margin-top: 2vw;
+    margin-left: 45vw;
+    margin-bottom: 2vw;
+}
+
+#secao3{
+    background-image: url("../imagens/img2.png");
+    background-repeat: no-repeat;
+}
+
+#texto1-secao3{
+    text-align: center;
+    padding-top: 2vw;
+    padding-bottom: 2vw;
+    color:white;    
+}
+
+#texto2-secao3{
+    text-align: center;
+    padding-top: 2vw;
+    color:white;    
+}
+
+#texto3-secao3{
+    text-align: center;
+    padding-top: 1vw;
+    padding-bottom: 2vw;
+    color:white;    
+}
+
+#secao3-img{
+    text-align: center;
+    margin-bottom: 2vw;
+}
+
+#secao3-txts h1{
+    color: white;
+    padding-bottom: 2vw;
+}
+
+#secao3-txts h4{
+    color: rgb(116, 116, 116);
+}
+
+#secao4{
+    margin-bottom: 5vw;
+}
+
+#secao4 div.col{
+   padding: 0;
+}
+
+#secao4-class{
+    width: 90vw;
+}
+
+#secao4-txt1{
+    text-align: center;
+    padding-top: 2vw;
+    padding-bottom: 2vw;
+}
+
+#secao4-txt2{
+    text-align: center;
+}
+
+#secao4-txt3{
+    margin-left: 2vw;
+    margin-right: 1vw;
+    margin-top: 2vw;
+    text-align: justify;
+}
+
+#secao4-txt4{
+    margin-top: 2vw;
+    text-align: center;
+}
+
+#lista li{
+    font-size: 18px;
+    margin-top: 0.3vw;
+}
+
+footer{
+    height: max-content;
+    background-color: #212529;
+}
+
+footer h5{
+    font-size: 15px;
+    margin-top: 1vw;
+    color: aliceblue;
+}
+
+@media only screen and (max-width: 767px){
+    #img-card{
+        height: 40vw;
+    }
+    #secao4{
+        margin-bottom: 2vw;
+    }
+
+    #secao4-class{
+        width: 99.9vw;
+    }
+    #secao4-txt1{
+        padding-bottom: 3vw;
+    }
+    
+    #secao4-txt3{
+        margin-left: 3vw;
+        margin-right: 0vw;
+        margin-top: 3vw;
+    }
+    #secao4-img{
+        margin-left: 1.8vw;
+    }
+}
+
+@media only screen and (max-width: 575px){
+    #card-p{
+        margin-left: 2.5vw;
+    }
+}
